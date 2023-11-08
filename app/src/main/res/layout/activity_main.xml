@@ -55,6 +55,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textViewCep"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -72,6 +73,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textViewStreet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -96,6 +98,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textViewCity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -113,6 +116,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textViewUF"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
